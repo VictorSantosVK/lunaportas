@@ -50,10 +50,13 @@
         <a href="#janelas">Janelas</a>
         <a href="#contato">Contato</a>
         <a href="#localizacao">Localização</a>
+        
         <a class="cta" href="#contato">Fale com o SAC</a>
       </nav>
     </div>
   </header>
+
+
 
   <!-- Hero -->
   <section class="hero">
@@ -102,239 +105,267 @@
   </section>
 
   <!-- PORTAS -->
-  <section id="portas" aria-labelledby="portas-title">
-    <div class="container">
-      <div class="section-head">
-        <h3 id="portas-title">Portas</h3>
-        <small>Filtre por linha e tipo</small>
-      </div>
-
-      <!-- Filtros Portas (LINHAS REAIS) -->
-      <div class="filters" data-scope="portas">
-        <div class="filter-group">
-          <strong>Linha:</strong>
-          <button class="pill is-active" data-filter-line="*">Todas</button>
-          <button class="pill" data-filter-line="Lambri">Lambri</button>
-          <button class="pill" data-filter-line="Portas de Correr">Portas de Correr</button>
-          <button class="pill" data-filter-line="Portas Venezianas">Portas Venezianas</button>
-          <button class="pill" data-filter-line="Vidro Temperado">Vidro Temperado</button>
-        </div>
-    
-        <div class="filter-meta"><span data-count>0</span> itens</div>
-      </div>
-
-      <!-- Grade Portas (exemplos — siga o padrão para mais itens) -->
-      <div class="grid" data-grid="portas">
-        <!-- Lambri (Giro) -->
-        <article class="card" data-kind="porta" data-line="Lambri" data-spec="giro">
-          <div class="card__img" style="background-image:url('assets/produtos/porta-lambri-giro-080x210.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Lambri • Giro</div>
-            <h4>Porta Lambri — 0,80 × 2,10</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Acabamento amadeirado • Charneiras reforçadas</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="porta" data-line="Lambri" data-spec="giro">
-          <div class="card__img" style="background-image:url('assets/produtos/porta-lambri-giro-090x210.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Lambri • Giro</div>
-            <h4>Porta Lambri — 0,90 × 2,10</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Design clássico • Vedação superior</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-
-        <!-- Portas de Correr -->
-        <article class="card" data-kind="porta" data-line="Portas de Correr" data-spec="correr-2f">
-          <div class="card__img" style="background-image:url('assets/produtos/porta-correr-2f-160x210.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Portas de Correr • 2F</div>
-            <h4>Porta de Correr 2 Folhas — 1,60 × 2,10</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Branca/Preta/Amadeirada • Vidro Liso/Reflex</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="porta" data-line="Portas de Correr" data-spec="correr-4f">
-          <div class="card__img" style="background-image:url('assets/produtos/porta-correr-4f-200x210.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Portas de Correr • 4F</div>
-            <h4>Porta de Correr 4 Folhas — 2,00 × 2,10</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Estrutura reforçada • Deslize suave</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-
-        <!-- Portas Venezianas -->
-        <article class="card" data-kind="porta" data-line="Portas Venezianas" data-spec="veneziana">
-          <div class="card__img" style="background-image:url('assets/produtos/porta-veneziana-070x210.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Portas Venezianas</div>
-            <h4>Porta Veneziana — 0,70 × 2,10</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Privacidade + ventilação • Pintura resistente</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-
-        <!-- Vidro Temperado -->
-        <article class="card" data-kind="porta" data-line="Vidro Temperado" data-spec="giro">
-          <div class="card__img" style="background-image:url('assets/produtos/porta-temperado-giro-080x210.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Vidro Temperado • Giro</div>
-            <h4>Porta de Vidro Temperado — 0,80 × 2,10</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Transparente/Fumê/Verde • Ferragens inox</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="porta" data-line="Vidro Temperado" data-spec="correr-2f">
-          <div class="card__img" style="background-image:url('assets/produtos/porta-temperado-correr-2f-160x210.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Vidro Temperado • Correr 2F</div>
-            <h4>Porta de Vidro Temperado 2 Folhas — 1,60 × 2,10</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Roldanas aparentes • Visual clean</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-      </div>
+<section id="portas" aria-labelledby="portas-title">
+  <div class="container">
+    <div class="section-head">
+      <h3 id="portas-title">Portas</h3>
+      <small>Filtre por linha e tipo</small>
     </div>
-  </section>
 
-  <!-- JANELAS -->
-  <section id="janelas" aria-labelledby="janelas-title">
-    <div class="container">
-      <div class="section-head">
-        <h3 id="janelas-title">Janelas</h3>
-        <small>Filtre por cor (linha) e tipo</small>
+    <!-- Filtros Portas -->
+    <div class="filters" data-scope="portas">
+      <div class="filter-group">
+        <strong>Linha:</strong>
+        <button class="pill is-active" data-filter-line="*">Todas</button>
+        <button class="pill" data-filter-line="Lambri">Lambri</button>
+        <button class="pill" data-filter-line="Portas de Correr">Portas de Correr</button>
+        <button class="pill" data-filter-line="Portas Venezianas">Portas Venezianas</button>
+        <button class="pill" data-filter-line="Vidro Temperado">Vidro Temperado</button>
       </div>
-
-      <!-- Filtros Janelas (CORES) -->
-      <div class="filters" data-scope="janelas">
-        <div class="filter-group">
-          <strong>Linha:</strong>
-          <button class="pill is-active" data-filter-line="*">Todas</button>
-          <button class="pill" data-filter-line="Branca">Branca</button>
-          <button class="pill" data-filter-line="Black">Black</button>
-          <button class="pill" data-filter-line="Amadeirada">Amadeirada</button>
-        </div>
-        <div class="filter-group">
-          <strong>Tipo:</strong>
-          <button class="pill is-active" data-filter-spec="*">Todos</button>
-          <button class="pill" data-filter-spec="2f">2 Folhas</button>
-          <button class="pill" data-filter-spec="4f">4 Folhas</button>
-          <button class="pill" data-filter-spec="basculante">Basculante</button>
-        </div>
-        <div class="filter-meta"><span data-count>0</span> itens</div>
-      </div>
-
-      <!-- Grade Janelas (exemplos) -->
-      <div class="grid" data-grid="janelas">
-        <!-- Branca -->
-        <article class="card" data-kind="janela" data-line="Branca" data-spec="2f">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-branca-2f-120x100.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Branca • 2 Folhas</div>
-            <h4>Janela 2 Folhas — 1,20 × 1,00</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Fecho caracol • Vidro Reflex • Vedação</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="janela" data-line="Branca" data-spec="4f">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-branca-4f-200x100.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Branca • 4 Folhas</div>
-            <h4>Janela 4 Folhas — 2,00 × 1,00</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Amplitude de abertura • Pintura resistente</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-
-        <!-- Black -->
-        <article class="card" data-kind="janela" data-line="Black" data-spec="2f">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-black-2f-120x100.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Black • 2 Folhas</div>
-            <h4>Janela 2 Folhas — 1,20 × 1,00</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Pintura resistente • Deslize suave</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="janela" data-line="Black" data-spec="4f">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-black-4f-200x100.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Black • 4 Folhas</div>
-            <h4>Janela 4 Folhas — 2,00 × 1,00</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Acabamento premium • Vedação reforçada</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-
-        <!-- Amadeirada -->
-        <article class="card" data-kind="janela" data-line="Amadeirada" data-spec="2f">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-amadeirada-2f-100x100.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Amadeirada • 2 Folhas</div>
-            <h4>Janela 2 Folhas — 1,00 × 1,00</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Textura amadeirada • Reflex opcional</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="janela" data-line="Amadeirada" data-spec="4f">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-amadeirada-4f-180x100.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Amadeirada • 4 Folhas</div>
-            <h4>Janela 4 Folhas — 1,80 × 1,00</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Isolamento • Pintura durável</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-
-        <!-- Basculantes -->
-        <article class="card" data-kind="janela" data-line="Branca" data-spec="basculante">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-branca-basculante-060x060.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Branca • Basculante</div>
-            <h4>Janela Basculante — 0,60 × 0,60</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Ventilação contínua • Fácil limpeza</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="janela" data-line="Black" data-spec="basculante">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-black-basculante-060x060.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Black • Basculante</div>
-            <h4>Janela Basculante — 0,60 × 0,60</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Ventilação + Vedação</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-        <article class="card" data-kind="janela" data-line="Amadeirada" data-spec="basculante">
-          <div class="card__img" style="background-image:url('assets/produtos/janela-amadeirada-basculante-060x060.jpg')"></div>
-          <div class="card__body">
-            <div class="badge-mini">Amadeirada • Basculante</div>
-            <h4>Janela Basculante — 0,60 × 0,60</h4>
-            <p class="price">a partir de R$ <span data-price>Consultar</span></p>
-            <p style="color:var(--muted)">Acabamento elegante • Praticidade</p>
-            <button class="btn" data-cta="whats">Quero este produto</button>
-          </div>
-        </article>
-      </div>
+      <div class="filter-meta"><span data-count>0</span> itens</div>
     </div>
-  </section>
+
+    <!-- Grade Portas -->
+    <div class="grid" data-grid="portas">
+
+      <!-- Lambri -->
+      <article class="card" data-kind="porta" data-line="Lambri" data-spec="giro">
+        <div class="card__img"
+             style="background-image:url('assets/image.png')" ></div>
+        <div class="card__body">
+          <div class="badge-mini">Lambri • Giro</div>
+          <h4>Porta Lambri — 0,80 × 2,10</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Acabamento amadeirado • Charneiras reforçadas</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="porta" data-line="Lambri" data-spec="giro">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/280216/pexels-photo-280216.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Lambri • Giro</div>
+          <h4>Porta Lambri — 0,90 × 2,10</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Design clássico • Vedação superior</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <!-- Portas de Correr -->
+      <article class="card" data-kind="porta" data-line="Portas de Correr" data-spec="correr-2f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/298972/pexels-photo-298972.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Portas de Correr</div>
+          <h4>Porta de Correr 2 Folhas — 1,60 × 2,10</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Branca/Preta/Amadeirada • Vidro Liso/Reflex</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="porta" data-line="Portas de Correr" data-spec="correr-4f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/3625712/pexels-photo-3625712.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Portas de Correr</div>
+          <h4>Porta de Correr 4 Folhas — 2,00 × 2,10</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Estrutura reforçada • Deslize suave</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <!-- Portas Venezianas -->
+      <article class="card" data-kind="porta" data-line="Portas Venezianas" data-spec="veneziana">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/3935339/pexels-photo-3935339.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Portas Venezianas</div>
+          <h4>Porta Veneziana — 0,70 × 2,10</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Privacidade + ventilação • Pintura resistente</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <!-- Vidro Temperado -->
+      <article class="card" data-kind="porta" data-line="Vidro Temperado" data-spec="giro">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/7095537/pexels-photo-7095537.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Vidro Temperado • Giro</div>
+          <h4>Porta de Vidro Temperado — 0,80 × 2,10</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Transparente/Fumê/Verde • Ferragens inox</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="porta" data-line="Vidro Temperado" data-spec="correr-2f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/3935338/pexels-photo-3935338.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Vidro Temperado • Correr 2F</div>
+          <h4>Porta de Vidro Temperado 2 Folhas — 1,60 × 2,10</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Roldanas aparentes • Visual clean</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- JANELAS -->
+<section id="janelas" aria-labelledby="janelas-title">
+  <div class="container">
+    <div class="section-head">
+      <h3 id="janelas-title">Janelas</h3>
+      <small>Filtre por cor (linha) e tipo</small>
+    </div>
+
+    <!-- Filtros Janelas -->
+    <div class="filters" data-scope="janelas">
+      <div class="filter-group">
+        <strong>Linha:</strong>
+        <button class="pill is-active" data-filter-line="*">Todas</button>
+        <button class="pill" data-filter-line="Branca">Branca</button>
+        <button class="pill" data-filter-line="Black">Black</button>
+        <button class="pill" data-filter-line="Amadeirada">Amadeirada</button>
+      </div>
+      <div class="filter-group">
+        <strong>Tipo:</strong>
+        <button class="pill is-active" data-filter-spec="*">Todos</button>
+        <button class="pill" data-filter-spec="2f">2 Folhas</button>
+        <button class="pill" data-filter-spec="4f">4 Folhas</button>
+        <button class="pill" data-filter-spec="basculante">Basculante</button>
+      </div>
+      <div class="filter-meta"><span data-count>0</span> itens</div>
+    </div>
+
+    <!-- Grade Janelas -->
+    <div class="grid" data-grid="janelas">
+
+      <!-- Branca -->
+      <article class="card" data-kind="janela" data-line="Branca" data-spec="2f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/7031679/pexels-photo-7031679.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Branca • 2 Folhas</div>
+          <h4>Janela 2 Folhas — 1,20 × 1,00</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Fecho caracol • Vidro Reflex • Vedação</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="janela" data-line="Branca" data-spec="4f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/1029591/pexels-photo-1029591.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Branca • 4 Folhas</div>
+          <h4>Janela 4 Folhas — 2,00 × 1,00</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Amplitude de abertura • Pintura resistente</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <!-- Black -->
+      <article class="card" data-kind="janela" data-line="Black" data-spec="2f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Black • 2 Folhas</div>
+          <h4>Janela 2 Folhas — 1,20 × 1,00</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Pintura resistente • Deslize suave</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="janela" data-line="Black" data-spec="4f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Black • 4 Folhas</div>
+          <h4>Janela 4 Folhas — 2,00 × 1,00</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Acabamento premium • Vedação reforçada</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <!-- Amadeirada -->
+      <article class="card" data-kind="janela" data-line="Amadeirada" data-spec="2f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/5691606/pexels-photo-5691606.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Amadeirada • 2 Folhas</div>
+          <h4>Janela 2 Folhas — 1,00 × 1,00</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Textura amadeirada • Reflex opcional</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="janela" data-line="Amadeirada" data-spec="4f">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/3728477/pexels-photo-3728477.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Amadeirada • 4 Folhas</div>
+          <h4>Janela 4 Folhas — 1,80 × 1,00</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Isolamento • Pintura durável</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <!-- Basculantes -->
+      <article class="card" data-kind="janela" data-line="Branca" data-spec="basculante">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/5691603/pexels-photo-5691603.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Branca • Basculante</div>
+          <h4>Janela Basculante — 0,60 × 0,60</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Ventilação contínua • Fácil limpeza</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="janela" data-line="Black" data-spec="basculante">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/5691598/pexels-photo-5691598.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Black • Basculante</div>
+          <h4>Janela Basculante — 0,60 × 0,60</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Ventilação + Vedação</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+      <article class="card" data-kind="janela" data-line="Amadeirada" data-spec="basculante">
+        <div class="card__img"
+             style="background-image:url('https://images.pexels.com/photos/5691605/pexels-photo-5691605.jpeg?auto=compress&cs=tinysrgb&w=800')"></div>
+        <div class="card__body">
+          <div class="badge-mini">Amadeirada • Basculante</div>
+          <h4>Janela Basculante — 0,60 × 0,60</h4>
+          <p class="price">a partir de R$ <span data-price>Consultar</span></p>
+          <p style="color:var(--muted)">Acabamento elegante • Praticidade</p>
+          <button class="btn" data-cta="whats">Quero este produto</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
 
   <!-- Contato & Localização -->
   <section id="contato" aria-labelledby="contato-title">
